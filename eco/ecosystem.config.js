@@ -15,8 +15,8 @@ module.exports = {
       script: './packages/users/server.ts',
       watch: true,
       env: {
-        // CLIENT_ID: '0000000', // Your VK app ID
-        // CLIENT_SECRET: 'XXXXXXX', // Your VK app secret key
+        CLIENT_ID: '7701648', // Your VK app app ID
+        CLIENT_SECRET: 'rdpXcJyS2Pw2zkd3bNLP', // Your VK app secret key
         NODE_ENV: 'development',
         REDIRECT_URI: 'http://0.0.0.0:4000/api/users/register',
         MONGO_URI: 'mongodb://0.0.0.0:27017/vkbc-users',
@@ -29,9 +29,9 @@ module.exports = {
       script: './packages/bots/server.ts',
       watch: true,
       env: {
-        // CLIENT_ID: '0000000', // Your VK app app ID
-        // CLIENT_SECRET: 'XXXXXXX', // Your VK app secret key
-        // DOMAIN: 'https://XXXXX.ngrok.io', // Your webhook domain
+        CLIENT_ID: '7701648', // Your VK app app ID
+        CLIENT_SECRET: 'rdpXcJyS2Pw2zkd3bNLP', // Your VK app secret key
+        DOMAIN: 'https://c725c9219001.ngrok.io/', // Your webhook domain
         NODE_ENV: 'development',
         REDIRECT_URI: 'http://0.0.0.0:4000/api/bots/create',
         MONGO_URI: 'mongodb://0.0.0.0:27017/vkbc-bots',
